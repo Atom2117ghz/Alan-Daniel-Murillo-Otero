@@ -1,0 +1,39 @@
+import matplotlib.pyplot as plt
+x = [0, 1, 2, 3, 3]
+y = [3,4,5,6,6]
+x1 = [8,7,6,5,5]
+y1 = [3,4,5,6,6]
+x2 = [3,4,5,5]
+y2=[6,6,6,6]
+x3= [8,6]
+y3=[3,3]
+x4=[0,2]
+y4=[3,3]
+x5=[6,4.8]
+y5=[3,4.7]
+x6=[2,3.2]
+y6=[3,4.7]
+x7=[4.8,3.2]
+y7=[4.7,4.7]
+x8=[3.4,4.8]
+y8=[5.2,5.2]
+x9=[3.5,4.7]
+y9=[5.6,5.6]
+x10=[3.4,3.5]
+y10=[5.2,5.6]
+x11=[4.8,4.7]
+y11=[5.2,5.6]
+
+plt.plot(x, y, color='purple',)
+plt.plot(x1, y1, color='purple',)
+plt.plot(x2, y2, color='purple',)
+plt.plot(x3, y3, color='purple',)
+plt.plot(x4, y4, color='purple',)
+plt.plot(x5, y5, color='purple',)
+plt.plot(x6, y6, color='purple',)
+plt.plot(x7, y7, color='purple',)
+plt.plot(x8, y8, color='purple',)
+plt.plot(x9, y9, color='purple',)
+plt.plot(x10, y10, color='purple',)
+plt.plot(x11, y11, color='purple',)
+plt.show()
